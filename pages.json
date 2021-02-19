@@ -1,0 +1,117 @@
+{
+	"pages": [ {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "奥园招商"
+			}
+		},{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/login/authorize",
+			"style": {
+				"navigationBarTitleText": "奥园招商"
+			}
+		}, {
+			"path": "pages/diagram/diagram",
+			"style": {
+				"navigationBarTitleText": "业态分布图"
+			}
+		},  
+		{
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "我的申请"
+			}
+		}, {
+			"path": "pages/application/application",
+			"style": {
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant/button/index",
+					"van-cell-group": "/wxcomponents/vant/cell-group/index",
+					"van-field": "/wxcomponents/vant/field/index",
+					"van-cell": "/wxcomponents/vant/cell/index",
+					"van-popup": "/wxcomponents/vant/popup/index",
+					"van-picker": "/wxcomponents/vant/picker/index"
+				},
+				"navigationBarTitleText": "入驻申请"
+			}
+		}, {
+			"path": "pages/projectList/projectList",
+			"style": {
+				"navigationBarTitleText": "项目列表"
+			}
+		}, {
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "项目列表"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "手机号码注册"
+			}
+		}, {
+			"path": "pages/fixPhone/fixPhone",
+			"style": {
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant/button/index",
+					"van-cell-group": "/wxcomponents/vant/cell-group/index",
+					"van-field": "/wxcomponents/vant/field/index",
+					"van-cell": "/wxcomponents/vant/cell/index",
+					"van-popup": "/wxcomponents/vant/popup/index",
+					"van-picker": "/wxcomponents/vant/picker/index"
+				},
+				"navigationBarTitleText": "管理账户"
+			}
+		}, {
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		}, {
+			"path": "pages/projectDetail/projectDetail",
+			"style": {
+				"navigationBarTitleText": "项目详情"
+			}
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		}
+
+
+
+
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "奥园商管",
+		"navigationBarBackgroundColor": "#0191D7",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#999999", //未选中的菜单文字颜色
+		"selectedColor": "#0191D7", //选中时的菜单文字颜色
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff", //背景
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar-icon/ic_merchants_uncheck.png",
+				"selectedIconPath": "static/img/tabbar-icon/ic_merchants_check.png",
+				"text": "招商"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/img/tabbar-icon/ic_center.png",
+				"selectedIconPath": "static/img/tabbar-icon/ic_center-s.png",
+				"text": "我的"
+			}
+		]
+	}
+}

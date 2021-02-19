@@ -1,0 +1,1 @@
+<view class="page" style="{{'height:'+(windowHeight)+';'}}"><view class="uni-common-mt"><view><map style="{{'height:'+(windowHeight)+';'}}" show-compass="true" scale="{{scale}}" latitude="{{covers[0].latitude}}" longitude="{{covers[0].longitude}}" markers="{{covers}}"></map></view></view></view>

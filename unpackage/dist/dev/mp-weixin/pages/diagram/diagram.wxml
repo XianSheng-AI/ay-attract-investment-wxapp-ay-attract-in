@@ -1,0 +1,1 @@
+<view class="page data-v-27a520ae"><view class="scaleImg data-v-27a520ae"><image class="diagram-img data-v-27a520ae" src="{{imgData.img}}" mode="widthFix" data-event-opts="{{[['tap',[['showBig',['$event']]]]]}}" bindtap="__e"></image></view></view>

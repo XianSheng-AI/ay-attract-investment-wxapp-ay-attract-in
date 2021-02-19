@@ -1,0 +1,7 @@
+
+.content {
+	/* padding-top: 30rpx; */
+	background-color: rgba(34, 33, 33, 1);
+}
+
+
